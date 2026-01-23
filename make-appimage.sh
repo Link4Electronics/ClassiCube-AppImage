@@ -12,7 +12,7 @@ export ICON=/usr/share/classicube-git/CCicon.png
 export DESKTOP=/usr/share/applications/classicube.desktop
 
 # Deploy dependencies
-quick-sharun /usr/bin/classicube_run /usr/bin/classicube
+quick-sharun /usr/bin/classicube_run
 
 # Additional changes can be done in between here
 
