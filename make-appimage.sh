@@ -11,7 +11,6 @@ export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}
 export ICON=/usr/share/classicube-git/CCicon.png
 export DESKTOP=/usr/share/applications/classicube.desktop
 export DEPLOY_OPENGL=1
-export ANYLINUX_LIB=1
 
 # Deploy dependencies
 quick-sharun /usr/bin/classicube
