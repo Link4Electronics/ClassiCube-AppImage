@@ -29,6 +29,5 @@ echo "$VERSION" > ~/version
 cd ./ClassiCube
 make -j$(nproc) RELEASE=1 BUILD_SDL3=1
 
-install -D -m755 "ClassiCube" "/usr/bin/classicube"
-install -D -m644 "license.txt" "/usr/share/licenses/classicube/license.txt"
-install -D -m644 "misc/CCicon.png" "/usr/share/classicube/CCicon.png"
+mv -v "ClassiCube" /usr/bin/classicube
+cp -r misc/CCicon.png /usr/share/classicube/CCicon.png
